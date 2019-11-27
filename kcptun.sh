@@ -1744,7 +1744,7 @@ set_kcptun_config() {
 	fi
 
 	echo "配置完成。"
-	any_key_to_continue
+	#any_key_to_continue
 }
 
 set_snmp() {
