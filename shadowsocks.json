@@ -1,0 +1,15 @@
+{
+    "server": "::",   
+    "local_address": "127.0.0.1", 
+    "local_port": 1080, 
+    "port_password": {
+        "8887": "testforbbr",
+        "8888": "testforbbr", 
+        "8889": "testforbbr",
+        "8890": "testforbbr", 
+        "8891": "testforbbr" 
+    },  
+    "timeout": 300,
+    "method": "aes-256-cfb" 
+}
+
