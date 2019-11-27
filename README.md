@@ -6,7 +6,7 @@
 echo -e "y\n"|yum install git&&git clone https://github.com/zxj-123/vultr-ss-bbr-kcptun.git
 cd vultr-ss-bbr-kcptun/
 按需更改shadowsocks.json文件中的端口密码(也可不更改使用默认密码)
-chomod 777 ss-bbr.sh&&./ss-bbr.sh
+chmod 777 ss-bbr.sh&&./ss-bbr.sh
 reboot
 ```
 
