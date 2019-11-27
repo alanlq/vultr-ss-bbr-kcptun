@@ -8,9 +8,9 @@ cd vultr-ss-bbr-kcptun/
 
 按需更改shadowsocks.json中的端口密码
 
-'''
+`
 chomod 777 ss-bbr.sh&&./ss-bbr.sh
-'''
+`
 
 保存最后的输出参数
 
