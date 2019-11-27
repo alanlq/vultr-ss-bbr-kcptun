@@ -15,6 +15,7 @@ reboot
 - tcptun参数  
 详细的kcp参数保存在 root/kcptunlog  
 可使用的客户端配置文件为:  
+把其中的your ip改为vps的ip  
 ```
 {  
   "localaddr": ":8888",
