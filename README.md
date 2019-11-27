@@ -11,7 +11,7 @@ reboot
 ```
 
 ## 默认参数  
-- ss端口为8887,8888,8889,8890,8890.密码为：testforbbr  
+- ss端口为8887,8888,8889,8890,8890.密码为：testforbbr  加密方式为:aes-256-cfb  
 - tcptun参数  
 详细的kcp参数保存在 root/kcptunlog  
 可使用的客户端配置文件为:  
