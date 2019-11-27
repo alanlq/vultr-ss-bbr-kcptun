@@ -1,6 +1,6 @@
 # vultr+shadowsocks+bbr+kcptun一键安装脚本
 
-##在centos7下使用
+## 在centos7下使用
 
 ```
 echo -e "y\n"|yum install git&&git clone https://github.com/zxj-123/vultr-ss-bbr-kcptun.git
