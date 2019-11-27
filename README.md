@@ -1,5 +1,6 @@
 # vultr+shadowsocks+bbr+kcptun一键安装脚本
 
+##在centos7下使用
 
 ```
 echo -e "y\n"|yum install git&&git clone https://github.com/zxj-123/vultr-ss-bbr-kcptun.git
@@ -12,7 +13,7 @@ reboot
 ## 默认参数  
 - ss端口为8887,8888,8889,8890,8890.密码为：testforbbr  
 - tcptun参数  
-详细的kcp参数保存在root/kcptunlog  
+详细的kcp参数保存在 root/kcptunlog  
 可使用的客户端配置文件为:  
 ```
 {  
