@@ -7,6 +7,7 @@ yum -y install python-pip
 pip install shadowsocks
 cp shadowsocks.json /etc/&&rm -rf shadowsocks.json
 echo "cd /etc&&ssserver -c ./shadowsocks.json -d start" >> /etc/rc.d/rc.local
+chmod +x /etc/rc.d/rc.local
 systemctl stop firewalld.service
 systemctl disable firewalld.service
 echo -e "6666\n\n8888\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"|./kcptun.sh >> /root/kcptunlog
