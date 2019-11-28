@@ -1,5 +1,7 @@
 # vultr+shadowsocks+bbr+kcptun一键安装脚本
 
+## 内含有 shadowsocks、kcptun Windows和安卓客户端
+
 ## 在centos7下使用
 
 ```
